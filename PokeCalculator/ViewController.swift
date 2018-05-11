@@ -15,7 +15,16 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        print(addME(a: 3, b: 4));
+        var charmander = pokemon(_name: "charmander", _type1: "fire", _type2: "na", _hp: 5, _atk: 7, _specialAtk: 8, _def: 4, _specialDef: 5, _speed: 9);
+        
+        print(charmander.atk);
+        
+        charmander.atk = 10;
+        print(charmander.atk);
+        
+        
+        
+        // make a file of all the pokemon that i can grab from
     }
 
     override func didReceiveMemoryWarning() {
