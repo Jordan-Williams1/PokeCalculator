@@ -15,7 +15,7 @@
 		7C1D12CB20A5576F003F36D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C1D12C920A5576F003F36D3 /* LaunchScreen.storyboard */; };
 		7C1D12D620A5576F003F36D3 /* PokeCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1D12D520A5576F003F36D3 /* PokeCalculatorTests.swift */; };
 		7C1D12E120A5576F003F36D3 /* PokeCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1D12E020A5576F003F36D3 /* PokeCalculatorUITests.swift */; };
-		7C1D12EF20A5581E003F36D3 /* testFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1D12EE20A5581E003F36D3 /* testFunction.swift */; };
+		7C1D12EF20A5581E003F36D3 /* pokemonClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1D12EE20A5581E003F36D3 /* pokemonClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +50,7 @@
 		7C1D12DC20A5576F003F36D3 /* PokeCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokeCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C1D12E020A5576F003F36D3 /* PokeCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeCalculatorUITests.swift; sourceTree = "<group>"; };
 		7C1D12E220A5576F003F36D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7C1D12EE20A5581E003F36D3 /* testFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = testFunction.swift; sourceTree = "<group>"; };
+		7C1D12EE20A5581E003F36D3 /* pokemonClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pokemonClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,7 @@
 			children = (
 				7C1D12BD20A5576F003F36D3 /* AppDelegate.swift */,
 				7C1D12BF20A5576F003F36D3 /* ViewController.swift */,
-				7C1D12EE20A5581E003F36D3 /* testFunction.swift */,
+				7C1D12EE20A5581E003F36D3 /* pokemonClass.swift */,
 				7C1D12C120A5576F003F36D3 /* Main.storyboard */,
 				7C1D12C720A5576F003F36D3 /* Assets.xcassets */,
 				7C1D12C920A5576F003F36D3 /* LaunchScreen.storyboard */,
@@ -271,7 +271,7 @@
 				7C1D12C020A5576F003F36D3 /* ViewController.swift in Sources */,
 				7C1D12C620A5576F003F36D3 /* PokeCalculator.xcdatamodeld in Sources */,
 				7C1D12BE20A5576F003F36D3 /* AppDelegate.swift in Sources */,
-				7C1D12EF20A5581E003F36D3 /* testFunction.swift in Sources */,
+				7C1D12EF20A5581E003F36D3 /* pokemonClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
