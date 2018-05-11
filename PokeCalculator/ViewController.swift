@@ -15,7 +15,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        var charmander = pokemon(_name: "charmander", _type1: "fire", _type2: "na", _hp: 5, _atk: 7, _specialAtk: 8, _def: 4, _specialDef: 5, _speed: 9);
+        let charmander = pokemon(_name: "charmander", _type1: "fire", _type2: "na", _hp: 5, _atk: 7, _specialAtk: 8, _def: 4, _specialDef: 5, _speed: 9);
         
         print(charmander.atk);
         
